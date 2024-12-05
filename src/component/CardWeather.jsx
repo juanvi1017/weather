@@ -12,7 +12,7 @@ export default function CardWeather({ city }) {
 
   const getWeather = useCallback(async (city) => {
     setLoading(true)
-    const response = await get(`http://api.weatherapi.com/v1/current.json?key=8ac946860874467ea8f140825242811&q=${city}&aqi=no&lang=es`)
+    const response = await get(`https://api.weatherapi.com/v1/current.json?key=8ac946860874467ea8f140825242811&q=${city}&aqi=no&lang=es`)
     if (response.status === 200) {
       setData(response.data);
     }
@@ -36,7 +36,7 @@ export default function CardWeather({ city }) {
         <div className="weather-illustration">
           <img
             className="weather-illustration-icon"
-            src={`http:${data.current.condition.icon}`}
+            src={`https:${data.current.condition.icon}`}
             alt={data.current.condition.text}
           />
           <div className="person">

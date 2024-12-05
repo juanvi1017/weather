@@ -20,7 +20,7 @@ function App() {
 
   const getWeather = useCallback(async (city) => {
     setLoading(true)
-    const response = await get(`http://api.weatherapi.com/v1/current.json?key=8ac946860874467ea8f140825242811&q=${city}&aqi=no&lang=es`)
+    const response = await get(`https://api.weatherapi.com/v1/current.json?key=8ac946860874467ea8f140825242811&q=${city}&aqi=no&lang=es`)
     if (response.status === 200) {
       setInfo(response.data);
     }
