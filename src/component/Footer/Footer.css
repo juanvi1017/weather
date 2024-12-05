@@ -55,6 +55,7 @@ li {
 @media (max-width: 600px) {
 
     .footer-text {
+        margin-top: 20px;
         float: left;
         padding: 1px;
         width: 100%;

@@ -66,7 +66,7 @@
 
 @media (max-width: 600px) {
     .weather-card {
-        width: 100%;
+        width: 70%;
     }
 }
 
@@ -137,6 +137,6 @@
 
 @media (max-width: 600px) {
     .weather-card-page {
-        width: 100%;
+        width: 90%;
     }
 }
