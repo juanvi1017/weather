@@ -1,0 +1,142 @@
+/* WeatherCard.css */
+.weather-card {
+    width: 23%;
+    margin: 10px;
+    background: linear-gradient(to bottom, #87CEEB, #4682B4);
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+.weather-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.temperature {
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.weather-condition {
+    font-size: 1.2rem;
+    margin: 5px 0;
+}
+
+.details {
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+.weather-illustration {
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+}
+
+.weather-illustration-icon {
+    top: -120px;
+    position: relative;
+    width: 90px;
+    height: 90px;
+}
+
+.person {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 820px) {
+    .weather-card {
+        width: 30%;
+    }
+}
+
+@media (max-width: 768px) {
+    .weather-card {
+        width: 47%;
+    }
+}
+
+@media (max-width: 600px) {
+    .weather-card {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+.weather-card-page {
+    width: 40%;
+    margin: 10px;
+    background: linear-gradient(to bottom, #e9eb87, #b4b246);
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+.weather-info-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.temperature-page {
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.weather-condition-page {
+    font-size: 1.2rem;
+    margin: 5px 0;
+}
+
+.details-page {
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+.weather-illustration-page {
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+}
+
+.weather-illustration-icon-page {
+    top: -60%;
+    right: -60%;
+    position: relative;
+    width: 90px;
+    height: 90px;
+}
+
+.person-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .weather-card-page {
+        width: 70%;
+    }
+}
+
+@media (max-width: 600px) {
+    .weather-card-page {
+        width: 100%;
+    }
+}
