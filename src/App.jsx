@@ -8,9 +8,11 @@ import CardWeatherPage from './component/CardWeatherPage';
 import Footer from './component/Footer/Footer';
 
 const city = ['Barranquilla', 'Bogota', 'Cali', 'Medellin']
-const listCity = ['Bogota', 'Cali', 'Medellin', 'Quito', 'Madrid', 'New york',
-  'Paris', 'Buenos Aires', 'Santa Marta', 'Cartagena', 'Pereira', 'Envigado', 'Valledupar', 'Quibdo',
-  'Lima', 'Caracas', 'Londres', 'Roma'];
+const listCity = ['Medellin', 'Cali', 'Cartagena', 'Soacha', 'Cucuta', 'Soledad', 'Bucaramanga',
+  'Bello', 'Valledupar', 'Villavicencio', 'Santa Marta', 'Ibague', 'Monteria', 'Pereira', 'Manizales',
+  'Pasto', 'Neiva', 'Palmira', 'Popayan', 'Buenaventura', 'Armenia', 'Floridablanca', 'Sincelejo',
+  'Itagui', 'Tumaco', 'Envigado', 'Dosquebradas', 'Tulua', 'Barrancabermeja', 'Riohacha', 'Quito',
+  'Madrid', 'New york', 'Paris', 'Buenos Aires', 'Lima', 'Caracas', 'London', 'Roma'];
 
 function App() {
 
@@ -44,7 +46,7 @@ function App() {
         <CardWeather key={item} city={value} />
       ))}
       <form style={{ width: '60%' }}>
-        <label>Seleccione alguna ciudad</label>
+        <label>Seleccione ciudad</label>
         <select id="country" name="country" onChange={handleChange}>
           <option defaultValue='Barranquilla'>Barranquilla</option>
           {listCity.map((info, index) => (

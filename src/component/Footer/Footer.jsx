@@ -13,6 +13,7 @@ const Footer = () => {
           <p>App para ver el tiempo de algunas ciudades de colombia y del mundo.</p>
           <p>
             <li>React js</li>
+            <li>Leaflet</li>
             <li>Vite</li>
           </p>
         </div>
