@@ -8,7 +8,7 @@ import CardWeatherPage from './component/CardWeatherPage';
 import Footer from './component/Footer/Footer';
 
 const city = ['Barranquilla', 'Bogota', 'Cali', 'Medellin']
-const listCity = ['Barranquilla', 'Bogota', 'Cali', 'Medellin', 'Quito', 'Madrid', 'New york',
+const listCity = ['Bogota', 'Cali', 'Medellin', 'Quito', 'Madrid', 'New york',
   'Paris', 'Buenos Aires', 'Santa Marta', 'Cartagena', 'Pereira', 'Envigado', 'Valledupar', 'Quibdo',
   'Lima', 'Caracas', 'Londres', 'Roma'];
 
