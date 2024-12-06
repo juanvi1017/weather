@@ -12,7 +12,7 @@ const listCity = ['Medellin', 'Cali', 'Cartagena', 'Soacha', 'Cucuta', 'Soledad'
   'Bello', 'Valledupar', 'Villavicencio', 'Santa Marta', 'Ibague', 'Monteria', 'Pereira', 'Manizales',
   'Pasto', 'Neiva', 'Palmira', 'Popayan', 'Buenaventura', 'Armenia', 'Floridablanca', 'Sincelejo',
   'Itagui', 'Tumaco', 'Envigado', 'Dosquebradas', 'Tulua', 'Barrancabermeja', 'Riohacha', 'Quito',
-  'Madrid', 'New york', 'Paris', 'Buenos Aires', 'Lima', 'Caracas', 'London', 'Roma'];
+  'Madrid', 'New york', 'Paris', 'Buenos Aires', 'Lima', 'Caracas', 'London', 'Rome'];
 
 function App() {
 
