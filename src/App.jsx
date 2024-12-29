@@ -16,7 +16,7 @@ const listCity = ['Medellin', 'Cali', 'Cartagena', 'Soacha', 'Cucuta', 'Soledad'
 
 function App() {
 
-  const [data, setData] = useState('')
+  const [data, setData] = useState('Barranquilla')
   const [info, setInfo] = useState(null)
   const [loading, setLoading] = useState(true)
 
